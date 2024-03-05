@@ -4,12 +4,12 @@ import { FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+        <footer className="bg-white rounded-lg shadow m-4">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse gap-2">
                         <img src="LW-logo-v2.png" className="h-12" alt="Lameen Logo" />
-                        <IconContext.Provider value={{size: "1.8rem"}}>
+                        <IconContext.Provider value={{size: "1.8rem", color: "gray"}}>
                         <a className="" href="https://www.linkedin.com/in/lameen-williams-428385260/">
                             <FaLinkedin />
                         </a>

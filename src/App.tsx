@@ -13,16 +13,17 @@ function App() {
     <>
       <Header/>
       <div id="back">
-      <h1 id="welcome" className="sm:text-5xl text-2xl font-bold p-4 text-gray-400">Welcome</h1>
-      <section className="flex flex-col sm:flex-row sm:justify-between p-2 sm:h-screen scroll-smooth">
-        <div className="h-full w-full">
-          <div className="border-gray-50 rounded-md bg-gray-50 sm:w-1/2 sm:h-fit p-2 mb-4">
+      <section className="p-2 sm:h-screen scroll-smooth cloudback">
+      <h1 id="welcome" className="sm:text-5xl text-2xl font-bold p-4 text-gray-400 mb-2">Welcome</h1>
+      <div className="flex flex-col sm:flex-row sm:justify-between ">
+        <div className="h-full w-full flex flex-1 flex-col">
+          <div className="border-gray-50 rounded-md bg-gray-50 sm:w-full sm:h-fit p-2 mb-4">
             <h2 className="text-2xl font-bold mb-4">Software Developer</h2>
             <p>Just a young passionate developer in Greenville, 
               North Carolina. Looking for oppurtunties to create 
               beautiful visions and dreams.</p>
           </div>
-          <div className="border-gray-50 rounded-md p-2 bg-gray-50 sm:w-1/2 h-fit">
+          <div className="border-gray-50 rounded-md p-2 bg-gray-50 sm:w-1/2 h-fit mb-4">
             <h2 className="flex text-xl font-bold mb-2">My Tech Stack</h2>
             <div className="flex gap-2 ">
               <IconContext.Provider value={{size: "2rem"}}>
@@ -31,10 +32,11 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end ">
-          <h2 className="border-gray-50 rounded-md p-2 bg-gray-50">Lameen Williams</h2>
-          <div className="bg-black w-full h-full lg:h-4/5">1</div>
+        <div className="flex flex-1 flex-col items-center sm:items-end ">
+          <h2 className="border-gray-50 rounded-md p-2 bg-gray-50 font-bold">Lameen Williams</h2>
+          
         </div>
+      </div>
       </section>
 
       <h1 id="about" className="sm:text-5xl text-2xl font-bold p-4 text-gray-400 text-right">About Me</h1>
@@ -61,8 +63,10 @@ function App() {
         <Cards />
       </section>
 
-      <h1 id="contact" className="text-2xl sm:text-5xl font-bold p-4 text-gray-400 text-right">Contact Me</h1>
-      <section className="flex flex-col-reverse sm:flex-row items-center sm:h-screen">
+      
+      <section className="sm:h-screen tableback">
+      <h1 id="contact" className="text-2xl sm:text-5xl font-bold p-4 text-gray-400 text-right mb-4">Contact Me</h1>
+      <div className="flex flex-col-reverse sm:flex-row items-center">
         <div className="sm:w-1/2 h-full flex justify-center items-center p-5">
         <Contact />
         </div>
@@ -71,6 +75,7 @@ function App() {
             <h2 className="sm:text-3xl text-xl font-bold text-yellow-500 text-center mb-4">Want to get in Contact with me?</h2>
             <h3 className="sm:text-xl text-lg text-center">Fill out your Name and your Contact Email with a Message</h3>
           </div>
+        </div>
         </div>
       </section>
       </div>
