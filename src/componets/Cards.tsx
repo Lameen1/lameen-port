@@ -98,7 +98,7 @@ function Cards (){
             <div className="flex justify-center items-center gap-2">
 
                 <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
-                    <a href="https://venomsite-v2-qfmmid9xc-lameens-projects.vercel.app/">
+                    <a href="https://venomsite-v2.vercel.app/">
                     <div className="flex items-center">
                         <div>Website</div>
                         <MdOutlineWeb />
