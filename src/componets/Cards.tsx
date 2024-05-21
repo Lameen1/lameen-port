@@ -9,13 +9,13 @@ function Cards (){
 
     return(
     <>
-    <div className="lg:h-4/6 w-full sm:w-80 border rounded-md shadow bg-white">
+    <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
         
         <div className="w-full h-2/5">
             <img className="h-full w-full" src="payplan.png" alt="payment plan website photo" />
         </div>
 
-        <div className="p-2">
+        <div className="p-2 flex flex-col justify-between h-3/5">
             
             <IconContext.Provider value= {{ size: "1.5em"}} >
                 <div className="flex justify-between">
@@ -64,13 +64,13 @@ function Cards (){
         </div>
     </div>
 
-    <div className="lg:h-4/6 w-full sm:w-80 border rounded-md shadow bg-white">
+    <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
         
         <div className="w-full h-2/5 rounded">
             <img className="h-full w-full " src="venom-web.png" alt="" />
         </div>
 
-        <div className="p-2">
+        <div className="p-2 flex flex-col justify-between h-3/5">
             
             <IconContext.Provider value= {{ size: "1.5em"}} >
                 <div className="flex justify-between">
@@ -93,7 +93,7 @@ function Cards (){
                     contact infomation. Additonally account sign in using clerk and convex.
                 </div>
             </IconContext.Provider>
-        </div>
+        
         <IconContext.Provider value={{size: "2.2em"}}>
             <div className="flex justify-center items-center gap-2">
 
@@ -119,15 +119,16 @@ function Cards (){
                 </div>
             </div>
         </IconContext.Provider>
+        </div>
     </div>
 
-    <div className="lg:h-4/6 w-full sm:w-80 border rounded-md shadow bg-white">
+    <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
         
         <div className="w-full h-2/5 rounded">
             <img className="h-full w-full " src="wordee-web.png" alt="" />
         </div>
 
-        <div className="p-2">
+        <div className="p-2 flex flex-col justify-between h-3/5">
             
             <IconContext.Provider value= {{ size: "1.5em"}} >
                 <div className="flex justify-between">
@@ -149,7 +150,7 @@ function Cards (){
                     scores are not tracked.
                 </div>
             </IconContext.Provider>
-        </div>
+        
         <IconContext.Provider value={{size: "2.2em"}}>
             <div className="flex justify-center items-center gap-2">
 
@@ -175,6 +176,7 @@ function Cards (){
                 </div>
             </div>
         </IconContext.Provider>
+        </div>
     </div>
     </>
     )
