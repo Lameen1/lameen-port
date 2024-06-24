@@ -1,9 +1,9 @@
-.cloudback{
-    background-image: url("./assets/cloud-back.jpg");
-    background-size: cover;
-    background-blend-mode: color;
-}
+
 .tableback{
     background-image: url("./assets/table-back.jpg");
+    background-size: cover;
+}
+.wave-back{
+    background-image: url("./assets/welcome.svg");
     background-size: cover;
 }

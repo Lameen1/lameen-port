@@ -2,68 +2,13 @@ import { DiHtml5, DiCss3, DiJsBadge, DiGithubBadge } from "react-icons/di";
 import {IconContext} from "react-icons"
 import { MdOutlineWeb } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiJquery } from "react-icons/si";
 
 
 function Cards (){
 
     return(
     <>
-    <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
-        
-        <div className="w-full h-2/5">
-            <img className="h-full w-full" src="payplan.png" alt="payment plan website photo" />
-        </div>
-
-        <div className="p-2 flex flex-col justify-between h-3/5">
-            
-            <IconContext.Provider value= {{ size: "1.5em"}} >
-                <div className="flex justify-between">
-                    <h3 className="font-bold" >4-Step Subscription</h3>
-                    <div className="flex justify-center mb-3">
-                        <DiHtml5 color="darkorange" />
-                        <DiCss3 color="cornflowerblue" />
-                        <DiJsBadge color="gold" />
-                        
-                    </div>
-                </div>
-                <div className="mb-2 text-sm ">
-                    This project is a 4 step subscription order
-                    checkout. First step require to give a name
-                    , email and phone number for the order. The
-                    subscription has customizable options with price
-                    change depending on what you choose. Website is 
-                    mobile friendly with a different layout. 
-                </div>
-            </IconContext.Provider>
-            <IconContext.Provider value={{size: "2.2em"}}>
-            <div className="flex justify-center items-center gap-2">
-
-                <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
-                    <a href="https://lameen1.github.io/multi-step-form-main/step-pages/step-1/step-1.html">
-                        <div className="flex items-center">
-                            <div>Website</div>
-                            <MdOutlineWeb />
-                        </div>
-                    </a>
-                </div>
-                
-                <div className="bg-gray-400 h-6 w-0.5"></div>
-
-                <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
-                    <a href="https://github.com/Lameen1/multi-step-form-main">
-                        <div className="flex items-center">
-                            <DiGithubBadge />
-                            <div>Repository</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            </IconContext.Provider>
-            
-        </div>
-    </div>
-
     <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
         
         <div className="w-full h-2/5 rounded">
@@ -125,6 +70,117 @@ function Cards (){
     <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
         
         <div className="w-full h-2/5 rounded">
+            <img className="h-full w-full object-fill" src="coal-sc.png" alt="" />
+        </div>
+
+        <div className="p-2 flex flex-col justify-between h-3/5">
+            
+            <IconContext.Provider value= {{ size: "1.5em"}} >
+                <div className="flex justify-between">
+                    <h3 className="font-bold">jQuery Dashboard</h3>
+                    <div className="flex justify-center mb-3">
+                        <SiJquery color="#0868ab" />
+                        <DiHtml5 color="darkorange" />
+                        <DiCss3 color="cornflowerblue" />
+                        <DiJsBadge color="gold" />
+                    </div>
+                </div>
+                <div className="mb-2 text-sm ">
+                    The project was a company skills test. The assignment was 
+                    to use HTML, CSS and jQuery to make an API GET request to present
+                    patients infomation on a static html page. The project also 
+                    used Chart.js to create the graph. The company did not want the 
+                    page to be responsive because it wanted to focus on being able to 
+                    make API pulls and error handling
+                </div>
+            </IconContext.Provider>
+        
+        <IconContext.Provider value={{size: "2.2em"}}>
+            <div className="flex justify-center items-center gap-2">
+
+            <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
+                <a href="https://lameen1.github.io/CoalTech-test/">
+                    <div className="flex items-center">
+                        <div>Website</div>
+                        <MdOutlineWeb />
+                    </div>
+                </a>
+            </div>
+                
+                <div className="bg-gray-400 h-6 w-0.5"></div>
+
+                <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
+                    <a href="https://github.com/Lameen1/CoalTech-test">
+                        <div className="flex items-center">
+                            <DiGithubBadge />
+                            <div>Repository</div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </IconContext.Provider>
+        </div>
+    </div>
+
+    <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
+        
+        <div className="w-full h-2/5">
+            <img className="h-full w-full" src="payplan.png" alt="payment plan website photo" />
+        </div>
+
+        <div className="p-2 flex flex-col justify-between h-3/5">
+            
+            <IconContext.Provider value= {{ size: "1.5em"}} >
+                <div className="flex justify-between">
+                    <h3 className="font-bold" >4-Step Subscription</h3>
+                    <div className="flex justify-center mb-3">
+                        <DiHtml5 color="darkorange" />
+                        <DiCss3 color="cornflowerblue" />
+                        <DiJsBadge color="gold" />
+                        
+                    </div>
+                </div>
+                <div className="mb-2 text-sm ">
+                    This project is a 4 step subscription order
+                    checkout. First step require to give a name
+                    , email and phone number for the order. The
+                    subscription has customizable options with price
+                    change depending on what you choose. Website is 
+                    mobile friendly with a different layout. 
+                </div>
+            </IconContext.Provider>
+            <IconContext.Provider value={{size: "2.2em"}}>
+            <div className="flex justify-center items-center gap-2">
+
+                <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
+                    <a href="https://lameen1.github.io/multi-step-form-main/step-pages/step-1/step-1.html">
+                        <div className="flex items-center">
+                            <div>Website</div>
+                            <MdOutlineWeb />
+                        </div>
+                    </a>
+                </div>
+                
+                <div className="bg-gray-400 h-6 w-0.5"></div>
+
+                <div className="flex justify-center items-center gap-1 hover:opacity-70 cursor-pointer">
+                    <a href="https://github.com/Lameen1/multi-step-form-main">
+                        <div className="flex items-center">
+                            <DiGithubBadge />
+                            <div>Repository</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </IconContext.Provider>
+            
+        </div>
+    </div>
+
+    <div className="lg:h-[32rem] h-full w-full sm:w-80 border rounded-md shadow bg-white ">
+        
+        <div className="w-full h-2/5 rounded">
             <img className="h-full w-full " src="wordee-web.png" alt="" />
         </div>
 
@@ -178,6 +234,7 @@ function Cards (){
         </IconContext.Provider>
         </div>
     </div>
+
     </>
     )
 }
